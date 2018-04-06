@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FrontEnd test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css"></style>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="navigation-block">
+            <ul class="nav-main" id="nav-sort">
+                <li class="nav-filter">排序</li>
+                <li class="nav-sub">
+                    <span class="nav-text select-nav" id="sort-publish" data-sort="publish">發布時間</span>
+                </li>
+                <li class="nav-sub">
+                    <span class="nav-text" id="sort-viewer" data-sort="views">觀看次數</span>
+                </li>
+                <li class="nav-sub">
+                    <span class="nav-text" id="sort-collect" data-sort="collectCount">收藏次數</span>
+                </li>
+            </ul>
+            <ul class="nav-main" id="nav-length">
+                <li class="nav-filter">長度</li>
+                <li class="nav-sub">
+                    <span class="nav-text select-nav" id="all-time" data-time="all">不限</span>
+                </li>
+                <li class="nav-sub">
+                    <span class="nav-text" id="four-minutes" data-time="fourMinutes">4分鐘以下</span>
+                </li>
+                <li class="nav-sub">
+                    <span class="nav-text" id="five-to-ten-minutes" data-time="fiveToTenMinutes">5-10分鐘</span>
+                </li>
+                <li class="nav-sub">
+                    <span class="nav-text" id="more-ten-minutes" data-time="moreTenMinutes">超過10分鐘</span>
+                </li>
+            </ul>
+        </div>
+        <div class="video-block">
+        <ul class="nav-video"></ul>
+        </div>
+    </body>
+    <script type="text/javascript">
+    
+    </script>
+    <script defer src="js/video.js"></script>
+</html>
